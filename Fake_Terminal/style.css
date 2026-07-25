@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+}
+
+.term{
+    width:100vw;
+    height:100vh;
+    background:#111;
+    color:#00e5ff;
+    font-family:monospace;
+    padding:20px;
+}
+
+.title{
+    font-size:28px;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+#output p{
+    margin:8px 0;
+    font-size:20px;
+}
+
+.field{
+    display:flex;
+    align-items:center;
+    margin-top:10px;
+}
+
+.field span{
+    font-size:22px;
+    margin-right:10px;
+}
+
+.field input{
+    flex:1;
+    background:transparent;
+    border:none;
+    outline:none;
+    color:#00e5ff;
+    font-size:22px;
+    font-family:monospace;
+}

@@ -1,0 +1,38 @@
+{
+  "type": "dir",
+  "name": "",
+  "children": [
+    {
+      "type": "dir",
+      "name": "home",
+      "children": [
+        {
+          "type": "dir",
+          "name": "user",
+          "children": [
+            {
+              "type": "file",
+              "name": "README.txt",
+              "content": "Welcome to your fake terminal!\nUse 'help' to list supported commands.\n"
+            },
+            {
+              "type": "file",
+              "name": "notes.txt",
+              "content": "These are practice notes.\nTry: ls, pwd, cd, cat, touch, mkdir\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dir",
+      "name": "etc",
+      "children": []
+    },
+    {
+      "type": "dir",
+      "name": "bin",
+      "children": []
+    }
+  ]
+}
